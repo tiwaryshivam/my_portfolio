@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #0a1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+   background: whitesmoke;
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 1fr 2fr;
+}
+.baye{
+    position: relative;
+    background-color: #0e4057;
+    padding: 40px;
+}
+.myimg img{
+    height: 200px;
+width: 200px;
+position: relative;
+border-radius: 50%;
+}
+.aboutme{
+    
+position: relative;
+display: flex;
+align-items: center;
+flex-direction: column;
+border-bottom: 1px solid grey;
+padding-bottom:20px ;
+
+}
+.aboutme h2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+    margin-top: 20;
+text-align: center;
+
+font-weight: 600;
+line-height: 1.3;
+}
+
+h2 span{
+    font-weight: 400;
+    font-size: 20px;
+}
+.contact{
+    padding: 40px;
+}
+.conh{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.08px;
+    margin-bottom: 20px;
+}
+.contact ul{
+    position: relative;
+
+}
+.contact ul li{
+    font-size: 18px;
+    letter-spacing: 0.045em;
+    position: relative;
+    color: white;
+    list-style: none;
+}
+
+.contact ul li .symbol{
+    display: inline-block;
+    width: 28px;
+    color: whitesmoke;
+    position: relative;
+
+}
+.contact ul li span{
+    font-weight: 300;
+}
+.contact ul li span p{
+    color: #4b67ff;
+}
+
+a{
+    color: rgb(236, 102, 102);
+    text-decoration: none;
+    transition: 0.3s all;
+}
+a:hover{
+    color: yellow;
+}
+
+
+
+.daye{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+.profile h2{
+    display: flex;
+    align-items: center;
+    color: #4a4a4a;
+font-size: 50px;
+line-height: 0.4;
+letter-spacing: 0.073em;
+font-weight: 600;
+font-style: normal;
+margin-bottom: 50px;
+}
+.profile p{
+    font-size: 21px;
+    font-weight: 100;
+}
+
+.profile p {
+    font-size: 21px;
+    margin-top: 30px;
+    font-weight: 100;
+}
+.skills h2{
+    display: flex;
+    align-items: center;
+    color: #4a4a4a;
+font-size: 50px;
+line-height: 0.4;
+letter-spacing: 0.073em;
+font-weight: 600;
+font-style: normal;
+margin-top: 50px;
+}
+.profile1{
+    display: flex;
+letter-spacing: 0.13em;
+justify-content: space-between;
+}
+.profile1 a:hover{
+    background: #0a1e1e;
+}
+.homespan{
+    font-size: 23px;
+line-height: 0.6;
+letter-spacing: -0.15px;
+font-weight: 700;
+font-style: normal;
+color: #020201;
+}
+.progress{
+    
+    margin-top: 30px;
+    font-weight: 100;
+    font-size: 25px;
+line-height: 1.9;
+letter-spacing: 0.003em;
+}
+.htmlpr{
+    width: 70%;
+height: 13px;
+
+background-color: blueviolet;
+    
+}
+.csspr{
+    width: 50%;
+    height: 13px;
+    
+    background-color: blueviolet;
+}
+
+.Javascriptpr{
+    width: 30%;
+    height: 13px;
+    
+    background-color: blueviolet;
+}
+.per{
+    background-color: grey;
+}
+
+.interest h2{
+    display: flex;
+    align-items: center;
+    color: #4a4a4a;
+font-size: 50px;
+line-height: 0.4;
+letter-spacing: 0.073em;
+font-weight: 600;
+font-style: normal;
+margin-top: 50px;
+}
+.interest ul li{
+    font-size: 20px;
+    letter-spacing: 0.045em;
+    position: relative;
+    color: white;
+    list-style: none;
+}
+.interest ul{
+    margin-top: 40px;
+}
+.interest ul li span {
+    color: #060608;
+    font-weight: 500;
+letter-spacing: 0.109em;
+line-height: 22px;
+font-style: normal;
+}
+.intsymbol{
+    letter-spacing: 15px;
+}
+
+
+@media (max-width: 1000px)
+{
+    .container
+    {
+        margin: 10px ;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

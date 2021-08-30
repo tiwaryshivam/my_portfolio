@@ -1,0 +1,319 @@
+body{
+    background: #e4a223;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1605px;
+    min-height: 1100px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.left{
+
+    position: relative;
+    padding : 40px;
+    background: black
+    
+}
+
+.right{
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    position: relative;
+    background: #10100c;
+
+    
+}
+
+.aboutme{
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+    padding-bottom:20px ;
+    
+    }
+    .aboutme h2{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-top: 20;
+    text-align: center;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 1.2;
+    letter-spacing: 0.014em;
+    }
+
+    .myimg img{
+        height: 250px;
+        width: 250px;
+    position: relative;
+    border-radius: 50%;
+    }
+
+
+
+
+    header.navbar ul{
+        width: 100%;  
+        padding: 1rem 3rem;
+        list-style: none;
+        
+      }
+      
+      header nav ul li a{
+          display: block;
+          padding: 1rem;
+          margin: 1.5rem 0;
+          background: #121316;
+          color: whitesmoke;
+          font-size: 2rem;
+          border-radius: 5rem;
+          text-decoration: none;
+      }
+      header .nav ul li a:hover{
+          background: #e4a223;
+      }
+
+
+      .right .rightp{
+        font-size: 22px;
+        line-height: 1.4;
+        letter-spacing: 0.065em;
+        font-weight: 800;
+font-style: italic;
+
+      }
+
+      .content{
+        position: relative;
+        top: 250px;
+        color: whitesmoke;
+      }
+
+      .naam{
+          color: #e4a223;
+      }
+.info{
+    background-color: #e4a223;
+    color: black;
+    border-radius: 38px;
+}
+      .abme{
+          border-bottom: burlywood;
+          padding: 10px;
+          text-align: center;
+          position: relative;
+bottom: -9px;
+font-size: 35px;
+      }
+.details{
+    padding: 25px;
+}
+
+
+
+
+.info .contact{
+    font-size: 20px;
+    letter-spacing: -0.004em;
+    display: flex;
+    
+}
+
+
+
+
+
+.contact ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+.skills h2{
+    display: flex;
+    align-items: center;
+    color: #fff;
+font-size: 50px;
+line-height: 0.4;
+letter-spacing: 0.073em;
+font-weight: 600;
+font-style: normal;
+margin-top: 50px;
+}
+
+.progress{
+    
+    margin-top: 30px;
+    font-weight: 100;
+    font-size: 25px;
+line-height: 1.9;
+letter-spacing: 0.003em;
+}
+.htmlpr{
+    width: 70%;
+height: 13px;
+
+background-color: blueviolet;
+    
+}
+.csspr{
+    width: 50%;
+    height: 13px;
+    
+    background-color: blueviolet;
+}
+
+.Javascriptpr{
+    width: 30%;
+    height: 13px;
+    
+    background-color: blueviolet;
+}
+.per{
+    background-color: grey;
+}
+
+
+a:hover{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+/* media */
+
+@media (max-width:529px){
+.aboutme h2{
+    font-size: 16px;
+
+}
+}
+
+@media(max-width:529px){
+    .left{
+        width: 150px;
+        height: 1500px;
+}
+}
+
+@media(max-width:529px){
+    .myimg img {
+        height: 154px;
+        width: 162px;
+}
+}
+
+@media(max-width:529px){
+    .nav ul{
+        position: relative;
+right: 20px;
+    }
+}
+
+@media(max-width:529px){
+    .details{
+        position: relative;
+right: 9px
+    }
+}
+
+@media(max-width:529px){
+.skills h2{
+    letter-spacing: -0.035em;
+line-height: 0.9;
+
+}
+}
+
+
+@media(max-width:529px){
+    .skills{
+        position: relative;
+right: 25px;
+    
+    }
+    }
+
+    @media(max-width:529px){
+        .nav{
+            position: relative;
+top: 43px;
+        
+        }
+        }
+
+        
+    @media(max-width:529px){
+        .contact{
+            position: relative;
+right: 25px;
+        
+        }
+        }
+
+
+
+        @media(max-width:529px){
+            .info{
+                width: 203px;
+                position: relative;
+                right: 18px;
+                top: 82px;
+            }
+            }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
